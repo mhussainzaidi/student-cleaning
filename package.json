@@ -1,0 +1,15 @@
+{
+  "name": "student-jobs-cleaning",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.4.4"
+  }
+}

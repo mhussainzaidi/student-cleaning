@@ -1,0 +1,35 @@
+
+---
+pagination: false
+---
+<!DOCTYPE html>
+<html lang="{{ lang | default('en') }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }} | Student Jobs Cleaning</title>
+  <link href="/assets/css/styles.css" rel="stylesheet">
+</head>
+<body class="text-gray-800 antialiased">
+  <header class="bg-white shadow">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-semibold"><a href="/" class="text-primary">Student Jobs Cleaning</a></h1>
+      <nav>
+        <a href="/#services" class="mx-2 hover:underline">Services</a>
+        <a href="/about/" class="mx-2 hover:underline">About</a>
+        <a href="/faq/" class="mx-2 hover:underline">FAQ</a>
+        <a href="/contact/" class="mx-2 underline text-primary">Free Estimate</a>
+      </nav>
+    </div>
+  </header>
+
+  {{ content | safe }}
+
+  <footer class="bg-gray-100 mt-16">
+    <div class="container mx-auto px-4 py-8 text-sm">
+      <p>© {{ 'now' | date('yyyy') }} Student Jobs Cleaning. Student‑owned & insured.</p>
+      <p>Service Area: Baie‑D'Urfé, Beaconsfield, DDO, Dorval, Kirkland, Pointe‑Claire, Sainte‑Anne‑de‑Bellevue, Senneville, L'Île‑Dorval, Pierrefonds‑Roxboro, L'Île‑Bizard–Sainte‑Geneviève, Vaudreuil‑Dorion, Hudson, Saint‑Lazare, Île‑Perrot, Pincourt, Vaudreuil‑sur‑le‑Lac, Les Cèdres</p>
+    </div>
+  </footer>
+</body>
+</html>
